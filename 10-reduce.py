@@ -12,5 +12,3 @@ def accum(contador,item):
     print("item -->",item)
     return contador + item
 result = functools.reduce(accum, numbers)
-
-"abc"+"cde"
