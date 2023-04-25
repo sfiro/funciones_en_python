@@ -6,7 +6,8 @@ class Grid():
     get_height devuelva el valor de la altura
     get_width  devuelve el valor del ancho de la matriz
     __getitem__ devuelve el item asociado a la fila (este es un array tambien)
-    __str__ devuelve la representación del array en formato str """
+    __str__ devuelve la representación del array en formato str
+    --random__ llena el array con valores aleatorios enteros """
     def __init__(self,rows,columns,fill_value=None):
         self.data = Array(rows)
         for row in range(rows):
