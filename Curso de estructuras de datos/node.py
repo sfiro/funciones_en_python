@@ -11,9 +11,13 @@ if __name__ == "__main__":
     nodo1 = None
     nodo2 = Node("A",None)
     nodo3 = Node("B",nodo2)
-    print(nodo2.data)
+    print('Valor del nodo 2 es: ' + nodo2.data)
+    
+    print('El valor al que apunta el nodo 2 es: ')
     print(nodo2.next)
-    print(nodo3.data)
+
+    print('Valor del nodo 3 es: ' + nodo3.data)
+    print('El valor al que apunta el nodo 3 es: ')
     print(nodo3.next.data)
     nodo1 = Node("C",nodo3)
     print(nodo1.data)
